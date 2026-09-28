@@ -1,10 +1,26 @@
 :root{
+    --body-height: 100vh;
     --bg-color: #F4D04E;
     --container-color: #FFFFFF;
+    --container-width: 384px;
+    --container-height: 552px;
+    --layout-mode: flex;
+    --layout-dir: column;
 }
 body{
    background-color: var(--bg-color);
+   min-height: var(--body-height);
+   display: grid;
+   place-items: center;
+   margin: 0px;
+}
+.main{
+    display: contents;
 }
 .container{
     background-color: var(--container-color);
+    inline-size: var(--container-width);
+    block-size: var(--container-height);
+    display: var(--layout-mode);
+    flex-direction: var(--layout-dir);
 }
