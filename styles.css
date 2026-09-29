@@ -1,28 +1,47 @@
-:root{
-    --body-height: 100vh;
-    --bg-color: #F4D04E;
-    --container-color: #FFFFFF;
-    --container-width: 384px;
-    --container-height: 552px;
-    --layout-mode: flex;
-    --layout-dir: column;
-    --content-radius: 20px;
+:root {
+  --body-height: 100vh;
+  --bg-color: #f4d04e;
+  --container-color: #ffffff;
+  --container-width: 384px;
+  --container-height: 552px;
+  --layout-mode: flex;
+  --layout-dir: column;
+  --content-radius: 20px;
+  --content-border: solid 2px black;
 }
-body{
-   background-color: var(--bg-color);
-   min-height: var(--body-height);
-   display: grid;
-   place-items: center;
-   margin: 0px;
+body {
+  background-color: var(--bg-color);
+  min-height: var(--body-height);
+  display: grid;
+  place-items: center;
+  margin: 0px;
 }
-.main{
-    display: contents;
+.main {
+  display: contents;
 }
-.container{
-    background-color: var(--container-color);
-    inline-size: var(--container-width);
-    block-size: var(--container-height);
-    display: var(--layout-mode);
-    flex-direction: var(--layout-dir);
-    border-radius: var(--content-radius);
+.container {
+  background-color: var(--container-color);
+  inline-size: var(--container-width);
+  block-size: var(--container-height);
+  display: var(--layout-mode);
+  flex-direction: var(--layout-dir);
+  border-radius: var(--content-radius);
+  --content-border: solid 2px blue;
+  border: var(--content-border);
+  padding: 24px;
+  /* place-items: center; */
+}
+.wall-image {
+  --content-border: solid 2px red;
+  border: var(--content-border);
+  --container-width: 100%;
+  inline-size: var(--container-width);
+  max-width: 336px;
+  --container-height: 200px;
+  block-size: var(--container-height);
+  object-fit: cover;
+  --content-radius: 10px;
+  border-radius: var(--content-radius);
+    --content-border: solid 1px rgb(12, 12, 15);
+  border: var(--content-border);
 }
