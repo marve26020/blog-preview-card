@@ -6,6 +6,7 @@
     --container-height: 552px;
     --layout-mode: flex;
     --layout-dir: column;
+    --content-radius: 20px;
 }
 body{
    background-color: var(--bg-color);
@@ -23,4 +24,5 @@ body{
     block-size: var(--container-height);
     display: var(--layout-mode);
     flex-direction: var(--layout-dir);
+    border-radius: var(--content-radius);
 }
