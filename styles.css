@@ -28,20 +28,17 @@ body {
   border-radius: var(--content-radius);
   --content-border: solid 2px blue;
   border: var(--content-border);
+  gap: 24px;
   padding: 24px;
   /* place-items: center; */
 }
-.wall-image {
-  --content-border: solid 2px red;
-  border: var(--content-border);
+.wall-image > img {
   --container-width: 100%;
   inline-size: var(--container-width);
-  max-width: 336px;
-  --container-height: 200px;
+  --container-height: auto;
   block-size: var(--container-height);
   object-fit: cover;
   --content-radius: 10px;
   border-radius: var(--content-radius);
-    --content-border: solid 1px rgb(12, 12, 15);
-  border: var(--content-border);
+  display: block;
 }
