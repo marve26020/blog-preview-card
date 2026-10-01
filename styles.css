@@ -1,5 +1,6 @@
 :root {
   --body-height: 100vh;
+  --text-font: "Figtree" , Arial, sans-serif;
   --bg-color: #f4d04e;
   --container-color: #ffffff;
   --container-width: 384px;
@@ -12,6 +13,7 @@
 body {
   background-color: var(--bg-color);
   min-height: var(--body-height);
+  font-family: var(--text-font);
   display: grid;
   place-items: center;
   margin: 0px;
@@ -41,4 +43,18 @@ body {
   --content-radius: 10px;
   border-radius: var(--content-radius);
   display: block;
+}
+.learn-text {
+  background-color: var(--bg-color);
+  inline-size: fit-content; /* Hugs the text horizontally */
+  block-size: fit-content; /* Hugs the text vertically */
+  align-items: center;
+  gap: 8px;
+  padding-inline: 10px;
+  padding-block: 12px;
+  --content-radius: 4px;
+  border-radius: var(--content-radius);
+  font-weight: 900;   
+  font-size: 24px;    
+  line-height: 1.5;
 }
