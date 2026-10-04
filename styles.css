@@ -28,10 +28,11 @@ body {
   display: var(--layout-mode);
   flex-direction: var(--layout-dir);
   border-radius: var(--content-radius);
-  --content-border: solid 2px blue;
+  --content-border: solid 1px #111111;
   border: var(--content-border);
   gap: 24px;
   padding: 24px;
+  filter: drop-shadow(7px 5px #111111);
   /* place-items: center; */
 }
 .wall-image > img {
