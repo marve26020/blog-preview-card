@@ -24,7 +24,7 @@ body {
 .container {
   background-color: var(--container-color);
   inline-size: var(--container-width);
-  block-size: var(--container-height);
+  block-size: auto;
   display: var(--layout-mode);
   flex-direction: var(--layout-dir);
   border-radius: var(--content-radius);
@@ -47,7 +47,7 @@ body {
 span.learn-text {
   background-color: var(--bg-color);
   inline-size: fit-content;
-  block-size: fit-content; 
+  block-size: fit-content;
   align-items: center;
   display: block;
   gap: 8px;
@@ -59,7 +59,6 @@ span.learn-text {
   font-size: 20px;
   line-height: 1.5;
 }
-
 
 .blog-date {
   inline-size: fit-content; /* Hugs the text horizontally */
@@ -77,8 +76,8 @@ h1 {
   font-size: 24px;
   font-weight: 800;
 }
-.blog-note{
-  color: #6B6B6B;
+.blog-note {
+  color: #6b6b6b;
   height: fit-content;
   min-height: 36px;
   width: 336px;
@@ -86,4 +85,21 @@ h1 {
   font-size: 16px;
   text-align: left;
   line-height: 1.5;
+}
+.author-image {
+  inline-size: 32px;
+  block-size: 32px;
+}
+.author {
+  inline-size: fit-content;
+  block-size: fit-content;
+  /* height: auto; */
+  display: var(--layout-mode);
+  gap: 12px;
+  align-items: center;
+}
+.author p {
+  font-size: 14px;
+  font-weight: 800;
+  margin: 0;
 }
