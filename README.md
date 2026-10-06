@@ -20,12 +20,6 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ## Overview
 
-### The challenge
-
-Users should be able to:
-
-- See hover and focus states for all interactive elements on the page
-
 ### Screenshot
 **Desktop View**
 ![Desktop View of the finished project](./projectScreenshots/desktopView.jpg)
@@ -97,4 +91,4 @@ Throughout the development of this project, I integrated **Google Gemini** into 
 
 ## Acknowledgments
 
-I sincerely want to thank [Frontend Mentor](https://www.frontendmentor.io) platform for this opportunity to mark this   [project](https://marve26020.github.io/qr-code/)  and also providing me with professional tools like the figma design and other useful items. 
+I sincerely want to thank [Frontend Mentor](https://www.frontendmentor.io) platform for this opportunity to mark this   [project](https://marve26020.github.io/blog-preview-card/)  and also providing me with professional tools like the figma design and other useful items. 
