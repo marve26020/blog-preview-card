@@ -33,7 +33,6 @@ body {
   gap: 24px;
   padding: 24px;
   filter: drop-shadow(7px 5px #111111);
-  /* place-items: center; */
 }
 .wall-image > img {
   --container-width: 100%;
@@ -62,9 +61,8 @@ span.learn-text {
 }
 
 .blog-date {
-  inline-size: fit-content; /* Hugs the text horizontally */
-  block-size: fit-content; /* Hugs the text vertically */
-  /* border: 2px solid red; */
+  inline-size: fit-content;
+  block-size: fit-content; 
   font-weight: 500;
   font-size: 17px;
   line-height: 1.5;
@@ -93,9 +91,7 @@ h1 {
 }
 .author {
   inline-size: fit-content;
-  block-size: fit-content;
-  /* height: auto; */
-  display: var(--layout-mode);
+  block-size: fit-content;  display: var(--layout-mode);
   gap: 12px;
   align-items: center;
 }
