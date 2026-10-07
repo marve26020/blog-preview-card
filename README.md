@@ -91,4 +91,4 @@ Throughout the development of this project, I integrated **Google Gemini** into 
 
 ## Acknowledgments
 
-I sincerely want to thank [Frontend Mentor](https://www.frontendmentor.io) platform for this opportunity to mark this   [project](https://marve26020.github.io/blog-preview-card/)  and also providing me with professional tools like the figma design and other useful items. 
+I sincerely want to thank [Frontend Mentor](https://www.frontendmentor.io) platform for this opportunity to make this   [project](https://marve26020.github.io/blog-preview-card/)  and also providing me with professional tools like the figma design and other useful items. 
