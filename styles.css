@@ -106,7 +106,7 @@ h1 {
   color: #F4D04E;
   cursor: pointer;
 }
-@media ( width <= 480px ){
+@media ( width <= 720px ){
   .container{
     --container-width: 300px;
     inline-size: var(--container-width);
